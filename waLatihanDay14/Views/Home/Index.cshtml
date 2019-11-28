@@ -1,0 +1,319 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<body>
+    <h2>UNIVERSITAS INDONESIA</h2>
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <ol>
+                <form class="form-horizontal">
+                    <legend>Login</legend>
+                    <h4>Buat account baru</h4>
+                    <h5>
+                        For international applicants, please contact our International Office regarding application procedure. This registration form is meant for Indonesian citizen only.
+                        Harap menggunakan account lama Anda jika Anda telah membuat pendaftaran sebelumnya.
+                    </h5>
+                    <li class="list-group-item" style="background-color: rgb(243, 243, 243)">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-3 control-label">Username</label>
+                            <div class="col-sm-9">
+                                <input type="email" class="form-control" id="inputEmail3" placeholder="Username">
+                                <span>Username yang Anda inginkan (hanya dapat terdiri dari huruf, angka, dan _). Username tidak boleh mengandung spasi.</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item" style="background-color: rgb(243, 243, 243)">
+                        <div class="form-group">
+                            <label for="inputPassword3" class="col-sm-3 control-label">Password</label>
+                            <div class="col-sm-9">
+                                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                                <footer>Masukkan password. Password minimal terdiri dari 6 karakter dan case sensitive (A beda dengan a).</footer>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item" style="background-color: rgb(243, 243, 243)">
+                        <div class="form-group">
+                            <label for="inputPassword3" class="col-sm-3 control-label">Ulangi Password</label>
+                            <div class="col-sm-9">
+                                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                            </div>
+                        </div>
+        
+                    </li>
+
+                </form>
+        </ol>
+
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <ol>
+                <form class="form-horizontal">
+                    <legend>Identitas</legend>
+                    <li class="list-group-item" style="background-color: rgb(243, 243, 243)">
+                        <div class="form-group">
+                            <label for="inputnama" class="col-sm-3 control-label">Nama sesuai identitas</label>
+                            <div class="col-sm-9">
+                                <input type="username" class="form-control" id="inputEmail3" placeholder="Nama">
+                                <span>
+                                    Nama sesuai yang tertulis di kartu identitas, tanpa gelar akademis/sertifikasi.<br>
+                                    Nama diawali huruf besar di awal dan setelah spasi, contoh benar: Abc Def, contoh salah: abc def, ABC DEF.
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item" style="background-color: rgb(243, 243, 243)">
+                        <div class="form-group">
+                            <label for="inputijazah" class="col-sm-3 control-label">Nama sesuai ijazah</label>
+                            <div class="col-sm-9">
+                                <input type="nama" class="form-control" id="ijazah" placeholder="Nama sesuai ijazah">
+                                <span>
+                                    Nama sesuai yang tertulis di ijazah, tanpa gelar akademis/sertifikasi.<br>
+                                    Nama diawali huruf besar di awal dan setelah spasi, contoh benar: Abc Def, contoh salah: abc def, ABC DEF.
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item" style="background-color: rgb(243, 243, 243)">
+                        <div class="form-group">
+                            <label for="identitas" class="col-sm-3 control-label">Jenis identitas</label>
+                            <div class="col-sm-9">
+                                <select class="form-control">
+                                    <option value="">--Pilih--</option>
+                                    <option value="1">KTP</option>
+                                    <option value="2">SIM</option>
+                                    <option value="3">Paspor</option>
+                                    <option value="4">Kartu pelajar</option>
+                                </select>
+                                <span>Pilih jenis identitas Anda. Identitas harus dibawa ketika ujian/daftar ulang.</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item" style="background-color: rgb(243, 243, 243)">
+                        <div class="form-group">
+                            <label for="input_nomoridentitas" class="col-sm-3 control-label">Nomor identitas</label>
+                            <div class="col-sm-9">
+                                <input type="nama" class="form-control" id="ijazah" placeholder="Nomor identitas">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item" style="background-color: rgb(243, 243, 243)">
+                        <div class="form-group">
+                            <label for="identitas" class="col-sm-3 control-label">Jenis identitas</label>
+                            <div class="col-sm-9">
+                                <select class="form-control">
+                                    <option value="">--Pilih--</option>
+                                    <option value="1">Indonesia</option>
+                                    <option value="2">Asing</option>
+                                </select>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item" style="background-color: rgb(243, 243, 243)">
+                        <div class="form-group">
+                            <label for="input_kelamin" class="col-sm-3 control-label">Jenis kelamin</label>
+                            <div class="col-sm-9">
+                                <legend>
+                                    <input type="radio" name="optionsradio" id="radio1">
+                                    Pria
+                                </legend>
+                                <legend>
+                                    <input type="radio" name="optionsradio" id="radio2">
+                                    Wanita
+                                </legend>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item" style="background-color: rgb(243, 243, 243)">
+                        <div class="form-group">
+                            <label for="input_tanggallahir" class="col-sm-3 control-label">Tanggal Lahir</label>
+                            <div class="col-sm-9">
+                                <select name="birth-date[d]">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="16">16</option>
+                                    <option value="17">17</option>
+                                    <option value="18">18</option>
+                                    <option value="19">19</option>
+                                    <option value="20">20</option>
+                                    <option value="21">21</option>
+                                    <option value="22">22</option>
+                                    <option value="23">23</option>
+                                    <option value="24">24</option>
+                                    <option value="25">25</option>
+                                    <option value="26">26</option>
+                                    <option value="27">27</option>
+                                    <option value="28">28</option>
+                                    <option value="29">29</option>
+                                    <option value="30">30</option>
+                                    <option value="31">31</option>
+                                </select>
+                                <select name="birth-month[m]">
+                                    <option value="1">Januari</option>
+                                    <option value="2">Februari</option>
+                                    <option value="3">Maret</option>
+                                    <option value="4">April</option>
+                                    <option value="5">Mei</option>
+                                    <option value="6">Juni</option>
+                                    <option value="7">Juli</option>
+                                    <option value="8">Agustus</option>
+                                    <option value="9">September</option>
+                                    <option value="10">Oktober</option>
+                                    <option value="11">November</option>
+                                    <option value="12">Desember</option>
+                                </select>
+                                <select name="birth-year[y]">
+
+                                    <option value="1">1979</option>
+                                    <option value="2">1980</option>
+                                    <option value="3">1981</option>
+                                    <option value="4">1982</option>
+                                    <option value="5">1983</option>
+                                    <option value="6">1984</option>
+                                    <option value="7">1985</option>
+                                    <option value="8">1986</option>
+                                    <option value="9">1987</option>
+                                    <option value="10">1988</option>
+                                    <option value="11">1989</option>
+                                    <option value="12">1990</option>
+                                    <option value="13">1991</option>
+                                    <option value="14">1992</option>
+                                    <option value="15">1993</option>
+                                    <option value="16">1994</option>
+                                    <option value="17">1995</option>
+                                    <option value="18">1996</option>
+                                    <option value="19">1997</option>
+                                    <option value="20">1998</option>
+                                    <option value="21">1999</option>
+                                </select>
+                            </div>
+                        </div>
+                    </li>
+        
+        </form>
+        </ol>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <ol>
+                <form class="form-horizontal">
+                    <legend>Kontak</legend>
+                    <li class="list-group-item" style="background-color: rgb(243, 243, 243)">
+                        <div class="form-group">
+                            <label for="input_alamat" class="col-sm-3 control-label">Alamat tetap</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="input_alamat" placeholder="Alamat tetap">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item" style="background-color: rgb(243, 243, 243)">
+                        <div class="form-group">
+                            <label for="negara" class="col-sm-3 control-label">Negara</label>
+                            <div class="col-sm-9">
+                                <select class="form-control">
+                                    <option value="1">Indonesia</option>
+                                    <option value="2">Luar Indonesia</option>
+                                </select>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item" style="background-color: rgb(243, 243, 243)">
+                        <div class="form-group">
+                            <label for="provinsi" class="col-sm-3 control-label">Provinsi</label>
+                            <div class="col-sm-9">
+                                <select class="form-control">
+                                    <option value="">--Pilih--</option>
+                                    <option value="1">DKI Jakarta</option>
+                                    <option value="2">Jawa Tengah</option>
+                                    <option value="3">Jawa Barat</option>
+                                    <option value="4">Jawa Timur</option>
+                                </select>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item" style="background-color: rgb(243, 243, 243)">
+                        <div class="form-group">
+                            <label for="kota" class="col-sm-3 control-label">Kabupaten/Kota</label>
+                            <div class="col-sm-9">
+                                <select class="form-control">
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item" style="background-color: rgb(243, 243, 243)">
+                        <div class="form-group">
+                            <label for="input_alamat2" class="col-sm-3 control-label">Alamat saat ini</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="input_alamat2" placeholder="Alamat saat ini">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item" style="background-color: rgb(243, 243, 243)">
+                        <div class="form-group">
+                            <label for="input_nomor" class="col-sm-3 control-label">No. Telepon</label>
+                            <div class="col-sm-9">
+                                <input type="nomor" class="form-control" id="input_nomor" placeholder="Nomor Telepon">
+                                <span>Nomor telepon yang dapat dihubungi. Pisahkan dengan , (koma) jika ada beberapa nomor.</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item" style="background-color: rgb(243, 243, 243)">
+                        <div class="form-group">
+                            <label for="input_nomorHP" class="col-sm-3 control-label">No. HP</label>
+                            <div class="col-sm-9">
+                                <input type="nomor" class="form-control" id="input_nomor" placeholder="Nomor Handphone">
+                                <span>Nomor handphone yang dapat dihubungi. Pisahkan dengan , (koma) jika ada beberapa nomor.</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item" style="background-color: rgb(243, 243, 243)">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-3 control-label">Email</label>
+                            <div class="col-sm-9">
+                                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                <span>Pastikan alamat email Anda benar, email konfirmasi akan dikirim ke alamat email tersebut</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item" style="background-color: rgb(243, 243, 243)">
+                        <div class="form-group">
+                            <label for="inputEmail4" class="col-sm-3 control-label">Ulangi Email</label>
+                            <div class="col-sm-9">
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item" style="background-color: rgb(243, 243, 243)">
+                        <div class="form-group">
+                            <label for="inputEmail4" class="col-sm-3 control-label"></label>
+                            <div class="col-sm-5">
+                                <button type="button" class="btn btn-default">Submit</button>
+                            </div>
+                        </div>
+                    </li>
+
+                </form>
+            </ol>
+
+        </div>
+    </div>
+</body>
+</html>
